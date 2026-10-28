@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>College Learning Commons – KLD (UI recreation)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">K</span><span>KLD</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" onclick="const n=document.getElementById('nav');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="has-sub"><a href="profile.html">About</a><ul class="sub"><li><a href="profile.html">KLD Profile</a></li><li><a href="organizational-structure.html">Organizational Structure</a></li><li><a href="administrators.html">Administrators</a></li><li><a href="board-of-trustees.html">Board of Trustees</a></li><li><a href="institutional-achievements.html">Institutional Achievements</a></li><li><a href="reach-us.html">Reach Us</a></li></ul></li>
+        <li class="has-sub"><a href="admission-policies.html">Admissions</a><ul class="sub"><li><a href="admission-policies.html">Admission Policies</a></li><li><a href="admission-guide.html">Admission Guide</a></li><li><a href="admission-portal.html">Admission Portal</a></li></ul></li>
+        <li class="has-sub"><a href="degree-programs.html">Academics</a><ul class="sub"><li><a href="degree-programs.html">Degree Programs</a></li><li><a href="institutes.html">Institutes</a></li></ul></li>
+        <li class="has-sub"><a href="news-events.html" class="active">KLD Life</a><ul class="sub"><li><a href="news-events.html">News &amp; Events</a></li><li><a href="college-learning-commons.html" aria-current="page">College Learning Commons</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="facilities.html">Facilities</a></li></ul></li>
+        <li class="has-sub"><a href="research.html">Research &amp; Extension</a><ul class="sub"><li><a href="research.html">Research</a></li><li><a href="extension.html">Extension</a></li></ul></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <p class="badge">KLD Life</p>
+    <h1>College Learning Commons</h1>
+    <p class="lead">The library and study spaces for every student</p>
+  </section>
+
+  <main>
+    <section class="section" aria-labelledby="services">
+      <div class="section-head"><h2 id="services">Services</h2></div>
+      <div class="three-col"><article class="card"><h3>Book lending</h3><p>Borrow books and reference materials.</p></article><article class="card"><h3>Study areas</h3><p>Quiet rooms and group tables.</p></article><article class="card"><h3>Digital resources</h3><p>Online journals and databases.</p></article></div>
+    </section>
+    <section class="section alt" aria-labelledby="hours">
+      <div class="section-head"><h2 id="hours">Hours</h2></div>
+      <div class="table-wrap"><table><thead><tr><th scope="col">Day</th><th scope="col">Hours</th></tr></thead><tbody><tr><td>Monday to Friday</td><td>Add hours</td></tr><tr><td>Saturday</td><td>Add hours</td></tr><tr><td>Sunday</td><td>Closed</td></tr></tbody></table></div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>UI recreation for learning. Not the official website.</p></footer>
+</body>
+</html>

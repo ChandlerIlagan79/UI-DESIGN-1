@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Organizational Structure – KLD (UI recreation)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">K</span><span>KLD</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" onclick="const n=document.getElementById('nav');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="has-sub"><a href="profile.html" class="active">About</a><ul class="sub"><li><a href="profile.html">KLD Profile</a></li><li><a href="organizational-structure.html" aria-current="page">Organizational Structure</a></li><li><a href="administrators.html">Administrators</a></li><li><a href="board-of-trustees.html">Board of Trustees</a></li><li><a href="institutional-achievements.html">Institutional Achievements</a></li><li><a href="reach-us.html">Reach Us</a></li></ul></li>
+        <li class="has-sub"><a href="admission-policies.html">Admissions</a><ul class="sub"><li><a href="admission-policies.html">Admission Policies</a></li><li><a href="admission-guide.html">Admission Guide</a></li><li><a href="admission-portal.html">Admission Portal</a></li></ul></li>
+        <li class="has-sub"><a href="degree-programs.html">Academics</a><ul class="sub"><li><a href="degree-programs.html">Degree Programs</a></li><li><a href="institutes.html">Institutes</a></li></ul></li>
+        <li class="has-sub"><a href="news-events.html">KLD Life</a><ul class="sub"><li><a href="news-events.html">News &amp; Events</a></li><li><a href="college-learning-commons.html">College Learning Commons</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="facilities.html">Facilities</a></li></ul></li>
+        <li class="has-sub"><a href="research.html">Research &amp; Extension</a><ul class="sub"><li><a href="research.html">Research</a></li><li><a href="extension.html">Extension</a></li></ul></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <p class="badge">About</p>
+    <h1>Organizational Structure</h1>
+    <p class="lead">How the college is organized</p>
+  </section>
+
+  <main>
+    <section class="section" aria-labelledby="chain-of-leadership">
+      <div class="section-head"><h2 id="chain-of-leadership">Chain of leadership</h2><p>From the governing board to the academic units.</p></div>
+      <ol class="org"><li><strong>Board of Trustees</strong><span>Sets policy and direction</span></li><li><strong>College President</strong><span>Leads day-to-day operations</span></li><li><strong>Vice Presidents</strong><span>Academic affairs, administration, research and extension</span></li><li><strong>Deans and Directors</strong><span>Lead institutes, offices, and services</span></li><li><strong>Faculty and Staff</strong><span>Teach, support, and serve students</span></li></ol>
+      <p class="note">Placeholder content. Replace with the official details before publishing.</p>
+    </section>
+    <section class="section alt" aria-labelledby="offices-and-units">
+      <div class="section-head"><h2 id="offices-and-units">Offices and units</h2></div>
+      <div class="three-col"><article class="card"><h3>Academic Affairs</h3><p>Programs, curriculum, and faculty.</p></article><article class="card"><h3>Student Affairs</h3><p>Student services, organizations, and welfare.</p></article><article class="card"><h3>Research and Extension</h3><p>Research output and community programs.</p></article></div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>UI recreation for learning. Not the official website.</p></footer>
+</body>
+</html>

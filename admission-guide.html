@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admission Guide – KLD (UI recreation)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">K</span><span>KLD</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" onclick="const n=document.getElementById('nav');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="has-sub"><a href="profile.html">About</a><ul class="sub"><li><a href="profile.html">KLD Profile</a></li><li><a href="organizational-structure.html">Organizational Structure</a></li><li><a href="administrators.html">Administrators</a></li><li><a href="board-of-trustees.html">Board of Trustees</a></li><li><a href="institutional-achievements.html">Institutional Achievements</a></li><li><a href="reach-us.html">Reach Us</a></li></ul></li>
+        <li class="has-sub"><a href="admission-policies.html" class="active">Admissions</a><ul class="sub"><li><a href="admission-policies.html">Admission Policies</a></li><li><a href="admission-guide.html" aria-current="page">Admission Guide</a></li><li><a href="admission-portal.html">Admission Portal</a></li></ul></li>
+        <li class="has-sub"><a href="degree-programs.html">Academics</a><ul class="sub"><li><a href="degree-programs.html">Degree Programs</a></li><li><a href="institutes.html">Institutes</a></li></ul></li>
+        <li class="has-sub"><a href="news-events.html">KLD Life</a><ul class="sub"><li><a href="news-events.html">News &amp; Events</a></li><li><a href="college-learning-commons.html">College Learning Commons</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="facilities.html">Facilities</a></li></ul></li>
+        <li class="has-sub"><a href="research.html">Research &amp; Extension</a><ul class="sub"><li><a href="research.html">Research</a></li><li><a href="extension.html">Extension</a></li></ul></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <p class="badge">Admissions</p>
+    <h1>Admission Guide</h1>
+    <p class="lead">From application to enrollment, step by step</p>
+  </section>
+
+  <main>
+    <section class="section" aria-labelledby="steps">
+      <div class="section-head"><h2 id="steps">Steps</h2></div>
+      <ol class="steps"><li><strong>Check eligibility.</strong> Read the admission policies.</li><li><strong>Prepare documents.</strong> Gather every required file and photo.</li><li><strong>Apply online.</strong> Create an account in the admission portal and fill out the form.</li><li><strong>Take the exam.</strong> Attend the schedule sent to your email.</li><li><strong>Check results.</strong> Results are posted in the portal.</li><li><strong>Enroll.</strong> Submit original documents and complete registration.</li></ol>
+    </section>
+    <section class="section alt" aria-labelledby="questions">
+      <div class="section-head"><h2 id="questions">Questions</h2></div>
+      <div class="three-col"><article class="card"><h3>Where do I apply?</h3><p>Use the admission portal.</p></article><article class="card"><h3>Is there a fee?</h3><p>Add fee information here.</p></article><article class="card"><h3>Who can help?</h3><p>Contact the admissions office through Reach Us.</p></article></div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>UI recreation for learning. Not the official website.</p></footer>
+</body>
+</html>

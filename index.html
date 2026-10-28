@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to KLD – KLD (UI recreation)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">K</span><span>KLD</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" onclick="const n=document.getElementById('nav');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li class="has-sub"><a href="profile.html">About</a><ul class="sub"><li><a href="profile.html">KLD Profile</a></li><li><a href="organizational-structure.html">Organizational Structure</a></li><li><a href="administrators.html">Administrators</a></li><li><a href="board-of-trustees.html">Board of Trustees</a></li><li><a href="institutional-achievements.html">Institutional Achievements</a></li><li><a href="reach-us.html">Reach Us</a></li></ul></li>
+        <li class="has-sub"><a href="admission-policies.html">Admissions</a><ul class="sub"><li><a href="admission-policies.html">Admission Policies</a></li><li><a href="admission-guide.html">Admission Guide</a></li><li><a href="admission-portal.html">Admission Portal</a></li></ul></li>
+        <li class="has-sub"><a href="degree-programs.html">Academics</a><ul class="sub"><li><a href="degree-programs.html">Degree Programs</a></li><li><a href="institutes.html">Institutes</a></li></ul></li>
+        <li class="has-sub"><a href="news-events.html">KLD Life</a><ul class="sub"><li><a href="news-events.html">News &amp; Events</a></li><li><a href="college-learning-commons.html">College Learning Commons</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="facilities.html">Facilities</a></li></ul></li>
+        <li class="has-sub"><a href="research.html">Research &amp; Extension</a><ul class="sub"><li><a href="research.html">Research</a></li><li><a href="extension.html">Extension</a></li></ul></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <p class="badge">City College of Dasmariñas</p>
+    <h1>Welcome to KLD</h1>
+    <p class="lead">Building the foundation for the Dasmarineños</p>
+  </section>
+
+  <main>
+    <section class="section" aria-labelledby="quick-links">
+      <div class="section-head"><h2 id="quick-links">Quick links</h2><p>Where do you want to go?</p></div>
+      <div class="three-col"><article class="card"><h3>Admissions</h3><p>Policies, the step-by-step guide, and the online portal.</p></article><article class="card"><h3>Academics</h3><p>Degree programs and the institutes that offer them.</p></article><article class="card"><h3>KLD Life</h3><p>News, events, the learning commons, alumni, and facilities.</p></article></div>
+    </section>
+    <section class="section alt" aria-labelledby="latest-news">
+      <div class="section-head"><h2 id="latest-news">Latest news</h2><p>Headlines from around campus.</p></div>
+      <div class="three-col"><article class="card"><h3>News headline 1</h3><p>Short summary of the story goes here.</p></article><article class="card"><h3>News headline 2</h3><p>Short summary of the story goes here.</p></article><article class="card"><h3>News headline 3</h3><p>Short summary of the story goes here.</p></article></div>
+    </section>
+    <section class="section" aria-labelledby="learn-about-kld">
+      <div class="section-head"><h2 id="learn-about-kld">Learn about KLD</h2></div>
+      <div class="split"><div><p>Read the vision, mission, core values, and story behind the college.</p><p><a class="btn" href="profile.html">Read the KLD profile</a></p></div><figure class="photo small" role="img" aria-label="Campus photo placeholder"><span>Campus photo</span></figure></div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>UI recreation for learning. Not the official website.</p></footer>
+</body>
+</html>

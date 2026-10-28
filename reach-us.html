@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reach Us – KLD (UI recreation)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">K</span><span>KLD</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" onclick="const n=document.getElementById('nav');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="has-sub"><a href="profile.html" class="active">About</a><ul class="sub"><li><a href="profile.html">KLD Profile</a></li><li><a href="organizational-structure.html">Organizational Structure</a></li><li><a href="administrators.html">Administrators</a></li><li><a href="board-of-trustees.html">Board of Trustees</a></li><li><a href="institutional-achievements.html">Institutional Achievements</a></li><li><a href="reach-us.html" aria-current="page">Reach Us</a></li></ul></li>
+        <li class="has-sub"><a href="admission-policies.html">Admissions</a><ul class="sub"><li><a href="admission-policies.html">Admission Policies</a></li><li><a href="admission-guide.html">Admission Guide</a></li><li><a href="admission-portal.html">Admission Portal</a></li></ul></li>
+        <li class="has-sub"><a href="degree-programs.html">Academics</a><ul class="sub"><li><a href="degree-programs.html">Degree Programs</a></li><li><a href="institutes.html">Institutes</a></li></ul></li>
+        <li class="has-sub"><a href="news-events.html">KLD Life</a><ul class="sub"><li><a href="news-events.html">News &amp; Events</a></li><li><a href="college-learning-commons.html">College Learning Commons</a></li><li><a href="alumni.html">Alumni</a></li><li><a href="facilities.html">Facilities</a></li></ul></li>
+        <li class="has-sub"><a href="research.html">Research &amp; Extension</a><ul class="sub"><li><a href="research.html">Research</a></li><li><a href="extension.html">Extension</a></li></ul></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <p class="badge">Contact</p>
+    <h1>Reach Us</h1>
+    <p class="lead">We would like to hear from you</p>
+  </section>
+
+  <main>
+    <section class="section" aria-labelledby="contact-details">
+      <div class="section-head"><h2 id="contact-details">Contact details</h2></div>
+      <div class="three-col"><article class="card"><h3>Address</h3><p>Street, Barangay, Dasmariñas City, Cavite</p></article><article class="card"><h3>Phone</h3><p>(000) 000-0000</p></article><article class="card"><h3>Email</h3><p>info@example.edu.ph</p></article></div>
+    </section>
+    <section class="section alt" aria-labelledby="send-a-message">
+      <div class="section-head"><h2 id="send-a-message">Send a message</h2><p>We usually reply within a few working days.</p></div>
+      <form class="form" onsubmit="event.preventDefault();this.querySelector('.ok').hidden=false;this.reset()">
+        <label>Full name<input type="text" required></label>
+        <label>Email<input type="email" required></label>
+        <label>Message<textarea rows="5" required></textarea></label>
+        <button class="btn" type="submit">Send message</button>
+        <p class="ok" role="status" hidden>Message sent. Thank you.</p>
+      </form>
+    </section>
+    <section class="section" aria-labelledby="find-us">
+      <div class="section-head"><h2 id="find-us">Find us</h2></div>
+      <div class="video" role="img" aria-label="Map placeholder"><span>Map placeholder</span></div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>UI recreation for learning. Not the official website.</p></footer>
+</body>
+</html>
